@@ -1,0 +1,666 @@
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.header-middle-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.site-title a {
+  text-decoration: none;
+  color: #333;
+  font-size: 24px;
+}
+
+.site-description {
+  color: #555;
+  font-size: 14px;
+}
+
+/* Style the mobile navigation toggle button */
+.nav-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the contact information */
+.contact-info {
+  display: flex;
+}
+
+.quickcontact {
+  display: flex;
+}
+
+.get-tuch {
+  margin-right: 20px;
+}
+
+/* Style the icons in contact information */
+.quickcontact i {
+  margin-right: 5px;
+}
+
+/* Media query for responsive design */
+@media only screen and (max-width: 768px) {
+  .header-middle-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contact-info {
+    margin-top: 20px;
+  }
+}
+#banner-slider {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-item {
+  flex: 0 0 100%;
+  background-size: cover;
+  background-position: center;
+  height: 500px; /* Adjust as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
+
+.slider-content {
+  max-width: 600px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.super-title,
+.slider-title,
+p {
+  margin: 0;
+}
+
+.btn-area {
+  margin-top: 20px;
+}
+
+.btn {
+  margin-right: 10px;
+}
+
+#banner-slider i {
+  font-size: 24px;
+  color: #fff;
+}
+
+.super-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.slider-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.btn-area {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin-right: 10px;
+  /* Add additional button styling as needed */
+}
+
+.popup-youtube {
+  color: #fff;
+  /* Add additional styles for the play button */
+}
+.super-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.slider-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Style the buttons */
+.btn-area {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-border {
+  border: 2px solid #007bff;
+  color: #007bff;
+}
+
+/* Style the video play button */
+.popup-youtube {
+  display: inline-block;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+/* Style the navigation arrows */
+.owl-nav button {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  margin-top: -24px; /* Adjust the position */
+}
+
+/* Style the dots (pagination) */
+.owl-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Adjust the position */
+}
+
+.owl-dot {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  margin: 0 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.owl-dot.active {
+  background-color: #fff;
+}
+/* Style the about us section container */
+#cl_aboutus {
+  padding: 80px 0; /* Adjust the padding as needed */
+}
+
+/* Style the container within the about us section */
+#cl_aboutus .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Style the left column containing the image */
+#cl_aboutus .align-part {
+  flex-basis: 30%; /* Adjust the width of the left column */
+  order: 1; /* Change the order to place it on the left */
+}
+
+#cl_aboutus .align-part img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Style the right column containing the content */
+#cl_aboutus .text-left {
+  flex-basis: 60%; /* Adjust the width of the right column */
+  order: 2; /* Change the order to place it on the right */
+}
+
+/* Style the about title in the about us section */
+#cl_aboutus .about-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333; /* Set your preferred color */
+  margin-bottom: 20px;
+}
+
+/* Style the paragraph text in the about us section */
+#cl_aboutus p {
+  font-size: 16px;
+  color: #666; /* Set your preferred color */
+  margin-bottom: 30px;
+}
+
+/* Style the address information in the about us section */
+#cl_aboutus .address-info {
+  font-size: 16px;
+  color: #333; /* Set your preferred color */
+  margin-bottom: 20px;
+}
+
+/* Style the Read More button in the about us section */
+#cl_aboutus .btn-primary {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #007bff; /* Set your preferred color */
+  color: #fff; /* Set your preferred color */
+  margin-top: 20px;
+}
+
+#cl_aboutus .btn-primary i {
+  margin-left: 10px;
+}
+
+/* Style the achievement items in the about us section */
+#cl_aboutus .achivement-items ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+#cl_aboutus .achivement-wrapper {
+  margin-right: 20px; /* Adjust the space between items */
+}
+
+#cl_aboutus .achivement-wrapper span {
+  font-size: 24px;
+  color: #007bff; /* Set your preferred color */
+  margin-right: 10px;
+}
+
+#cl_aboutus .text-icon-wrap {
+  display: flex;
+  align-items: center;
+}
+
+#cl_aboutus .medium {
+  font-size: 16px;
+  color: #333; /* Set your preferred color */
+}
+
+#cl_aboutus .timer.achivement {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333; /* Set your preferred color */
+}
+/* Style the call-to-action wrapper */
+#cl_ctavideo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 100px 0; /* Adjust the padding as needed */
+}
+
+/* Style the container within the call-to-action section */
+#cl_ctavideo .container {
+  text-align: center;
+}
+
+/* Style the video play button */
+#cl_ctavideo .video_calltoaction_wrap {
+  margin-bottom: 30px;
+}
+
+#cl_ctavideo .popup-youtube {
+  display: inline-block;
+  font-size: 48px;
+  color: #fff; /* Set your preferred color */
+  text-decoration: none;
+}
+
+/* Style the content within the call-to-action section */
+#cl_ctavideo .calltoaction_full_widget_content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#cl_ctavideo h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff; /* Set your preferred color */
+  margin-bottom: 20px;
+}
+
+#cl_ctavideo .calltoaction_subtitle p {
+  font-size: 16px;
+  color: #fff; /* Set your preferred color */
+  line-height: 1.6;
+}
+
+/* Add animation to the title and subtitle */
+#cl_ctavideo h2.wow,
+#cl_ctavideo .calltoaction_subtitle {
+  visibility: visible;
+  animation-name: zoomIn;
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+/* Style the portfolio section */
+#cl_portfolio {
+  padding: 50px 0; /* Adjust the padding as needed */
+  text-align: center; /* Center align text */
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section-tagline {
+  font-size: 16px;
+  color: #777; /* Set your preferred color */
+  margin-bottom: 30px;
+}
+
+.cons_light_portfolio-cat-name-list {
+  margin-bottom: 30px;
+}
+
+.cons_light_portfolio-cat-name {
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333; /* Set your preferred color */
+}
+
+.cons_light_portfolio-cat-name.active {
+  color: #007bff; /* Set your preferred active color */
+}
+
+/* Style the portfolio posts */
+.cons_light_portfolio-posts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center align text */
+}
+
+/* Style each portfolio item */
+.cons_light_portfolio-post {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.cons_light_portfolio-post img {
+  max-width: 100%;
+  height: auto;
+}
+/* Style the call to action section */
+#cl_cta {
+  padding: 100px 0; /* Adjust the padding as needed */
+  color: #fff; /* Set text color to white */
+  text-align: center;
+}
+
+/* Style the full widget content */
+.calltoaction_full_widget_content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Style the title */
+.calltoaction_full_widget_content h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Style the subtitle */
+.calltoaction_subtitle p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* Style the button wrap */
+.calltoaction_button_wrap {
+  display: flex;
+  justify-content: center;
+}
+
+/* Style the buttons */
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-border {
+  border: 2px solid #fff;
+  color: #fff;
+}
+/* Style the counter section */
+#cl_counter {
+  padding: 100px 0; /* Adjust the padding as needed */
+  color: #fff; /* Set text color to white */
+  text-align: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* Style the counter title and tagline */
+#cl_counter .section-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#cl_counter .section-tagline {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* Style the counter parts */
+.cons_light_counter_part {
+  margin-bottom: 30px;
+}
+
+.cons_light_counter-icon {
+  font-size: 36px;
+  color: #fff;
+}
+
+.cons_light_counter-title {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.cons_light_counter_wrapper {
+  font-size: 36px;
+  color: #fff;
+  font-weight: bold;
+}
+/* Style the testimonial section */
+#cl_testimonial {
+  padding: 100px 0; /* Adjust the padding as needed */
+  color: #fff; /* Set text color to white */
+  text-align: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* Style the testimonial title and tagline */
+#cl_testimonial .section-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#cl_testimonial .section-tagline {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* Style the testimonial slider */
+.owl-carousel {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.owl-carousel .item {
+  background-color: #fff; /* Set background color for each testimonial item */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.owl-carousel img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.owl-carousel p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.owl-carousel h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.owl-carousel h4 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #888;
+}
+#cl_blog {
+  padding: 80px 0;
+  background-color: #f8f8f8;
+  text-align: center; /* Center-align the content */
+}
+
+#cl_blog .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#cl_blog .section-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#cl_blog .section-tagline {
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+#cl_blog .blog-item {
+  margin-bottom: 30px;
+  text-align: left; /* Align blog item text to the left within the centered container */
+}
+
+#cl_blog .blog-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+#cl_blog .blog-item h3 {
+  font-size: 24px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+#cl_blog .blog-item p {
+  color: #555;
+}
+
+#cl_blog .read-more-link {
+  display: inline-block;
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+#cl_blog .read-more-link:hover {
+  text-decoration: underline;
+}
+/* Add your global styles here */
+
+/* Example styling for the footer */
+.site-footer {
+  background-color: #f4f4f4;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between; /* Adjust as needed */
+  align-items: center;
+}
+
+.widget-title {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.section-tagline {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Add more styles as needed */
