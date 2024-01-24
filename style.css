@@ -1,4 +1,9 @@
-body, h1, h2, p, ul, li {
+body,
+h1,
+h2,
+p,
+ul,
+li {
   margin: 0;
   padding: 0;
 }
@@ -11,6 +16,19 @@ body, h1, h2, p, ul, li {
   background-color: #f4f4f4;
 }
 
+.site-branding-contact-info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+}
+.brandinglogo-wrap {
+  justify-content: flex-start; 
+}
+
+.contact-info {
+  display: flex;
+  justify-content: right;
+}
 .site-title a {
   text-decoration: none;
   color: #333;
@@ -22,14 +40,57 @@ body, h1, h2, p, ul, li {
   font-size: 14px;
 }
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover
+
 .nav-toggle {
   background: none;
   border: none;
   cursor: pointer;
-}
-
-.contact-info {
-  display: flex;
 }
 
 .quickcontact {
@@ -40,9 +101,11 @@ body, h1, h2, p, ul, li {
   margin-right: 20px;
 }
 
+
 .quickcontact i {
   margin-right: 5px;
 }
+
 
 @media only screen and (max-width: 768px) {
   .header-middle-inner {
@@ -54,7 +117,6 @@ body, h1, h2, p, ul, li {
     margin-top: 20px;
   }
 }
-
 #banner-slider {
   display: flex;
   width: 100%;
@@ -65,7 +127,7 @@ body, h1, h2, p, ul, li {
   flex: 0 0 100%;
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 500px; 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -82,7 +144,9 @@ body, h1, h2, p, ul, li {
   border-radius: 8px;
 }
 
-.super-title, .slider-title, p {
+.super-title,
+.slider-title,
+p {
   margin: 0;
 }
 
@@ -114,47 +178,11 @@ p {
   margin-bottom: 30px;
 }
 
-.btn-area {
-  display: flex;
-  justify-content: center;
-}
-
-.btn {
-  margin-right: 10px;
-}
-
 .popup-youtube {
   color: #fff;
 }
 
-.super-title {
-  font-size: 20px;
-  font-weight: bold;
-}
 
-.slider-title {
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-
-p {
-  font-size: 16px;
-  margin-bottom: 20px;
-}
-
-.btn-area {
-  margin-top: 20px;
-}
-
-.btn {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  text-decoration: none;
-  margin-right: 10px;
-}
 
 .btn-primary {
   background-color: #007bff;
@@ -166,26 +194,20 @@ p {
   color: #007bff;
 }
 
-.popup-youtube {
-  display: inline-block;
-  font-size: 24px;
-  color: #fff;
-  text-decoration: none;
-  margin-left: 10px;
-}
 
 .owl-nav button {
   background-color: rgba(255, 255, 255, 0.5);
   border: none;
   color: #fff;
   font-size: 24px;
-  margin-top: -24px;
+  margin-top: -24px; 
 }
+
 
 .owl-dots {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 20px; 
 }
 
 .owl-dot {
@@ -203,8 +225,9 @@ p {
 }
 
 #cl_aboutus {
-  padding: 80px 0;
+  padding: 80px 0; 
 }
+
 
 #cl_aboutus .container {
   display: flex;
@@ -213,9 +236,10 @@ p {
   flex-wrap: wrap;
 }
 
+
 #cl_aboutus .align-part {
-  flex-basis: 30%;
-  order: 1;
+  flex-basis: 30%; 
+  order: 1; 
 }
 
 #cl_aboutus .align-part img {
@@ -225,29 +249,34 @@ p {
   margin: 0 auto;
 }
 
+
 #cl_aboutus .text-left {
-  flex-basis: 60%;
-  order: 2;
+  flex-basis: 60%; 
+  order: 2; 
 }
+
 
 #cl_aboutus .about-title {
   font-size: 36px;
   font-weight: bold;
-  color: #333;
+  color: #333; 
   margin-bottom: 20px;
 }
+
 
 #cl_aboutus p {
   font-size: 16px;
-  color: #666;
+  color: #666; 
   margin-bottom: 30px;
 }
 
+
 #cl_aboutus .address-info {
   font-size: 16px;
-  color: #333;
+  color: #333; 
   margin-bottom: 20px;
 }
+
 
 #cl_aboutus .btn-primary {
   display: inline-block;
@@ -255,7 +284,7 @@ p {
   font-size: 16px;
   font-weight: bold;
   text-decoration: none;
-  background-color: #007bff;
+  background-color: #007bff; 
   color: #fff;
   margin-top: 20px;
 }
@@ -263,6 +292,7 @@ p {
 #cl_aboutus .btn-primary i {
   margin-left: 10px;
 }
+
 
 #cl_aboutus .achivement-items ul {
   list-style: none;
@@ -272,12 +302,12 @@ p {
 }
 
 #cl_aboutus .achivement-wrapper {
-  margin-right: 20px;
+  margin-right: 20px; 
 }
 
 #cl_aboutus .achivement-wrapper span {
   font-size: 24px;
-  color: #007bff;
+  color: #007bff; 
   margin-right: 10px;
 }
 
@@ -288,27 +318,24 @@ p {
 
 #cl_aboutus .medium {
   font-size: 16px;
-  color: #333;
+  color: #333; 
 }
 
 #cl_aboutus .timer.achivement {
   font-size: 36px;
   font-weight: bold;
-  color: #333;
+  color: #333; 
 }
-
 #cl_ctavideo {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  padding: 100px 0;
+  padding: 100px 0; 
 }
-
 #cl_ctavideo .container {
   text-align: center;
 }
-
 #cl_ctavideo .video_calltoaction_wrap {
   margin-bottom: 30px;
 }
@@ -319,7 +346,6 @@ p {
   color: #fff;
   text-decoration: none;
 }
-
 #cl_ctavideo .calltoaction_full_widget_content {
   max-width: 600px;
   margin: 0 auto;
@@ -328,7 +354,7 @@ p {
 #cl_ctavideo h2 {
   font-size: 36px;
   font-weight: bold;
-  color: #fff;
+  color: #fff; 
   margin-bottom: 20px;
 }
 
@@ -354,9 +380,8 @@ p {
     transform: scale(1);
   }
 }
-
 #cl_portfolio {
-  padding: 50px 0;
+  padding: 50px 0; 
   text-align: center;
 }
 
@@ -382,7 +407,7 @@ p {
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
-  color: #333;
+  color: #333; 
 }
 
 .cons_light_portfolio-cat-name.active {
@@ -394,7 +419,6 @@ p {
   margin: 0;
   padding: 0;
   text-align: center;
-}
 
 .cons_light_portfolio-post {
   display: inline-block;
@@ -404,9 +428,7 @@ p {
 .cons_light_portfolio-post img {
   max-width: 100%;
   height: auto;
-}
-
-#cl_cta {
+}#cl_cta {
   padding: 100px 0;
   color: #fff;
   text-align: center;
@@ -431,25 +453,6 @@ p {
 .calltoaction_button_wrap {
   display: flex;
   justify-content: center;
-}
-
-.btn {
-  display: inline-block;
-  padding: 15px 30px;
-  font-size: 18px;
-  font-weight: bold;
-  text-decoration: none;
-  margin: 0 10px;
-}
-
-.btn-primary {
-  background-color: #007bff;
-  color: #fff;
-}
-
-.btn-border {
-  border: 2px solid #fff;
-  color: #fff;
 }
 
 #cl_counter {
@@ -617,9 +620,4 @@ p {
   font-size: 18px;
   color: #333;
   margin-bottom: 15px;
-}
-
-.section-tagline {
-  font-size: 14px;
-  color: #777;
 }
